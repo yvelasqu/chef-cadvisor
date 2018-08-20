@@ -1,0 +1,56 @@
+{
+  "files": {
+    "cadvisor/recipes/default.rb": {
+      "docker_image[registry.it.lan.com/latam/cadvisor]": {
+        "name": "docker_image[registry.it.lan.com/latam/cadvisor]",
+        "source": "cadvisor/recipes/default.rb",
+        "line": 8,
+        "covered": true
+      },
+      "docker_container[registry.it.lan.com/latam/cadvisor]": {
+        "name": "docker_container[registry.it.lan.com/latam/cadvisor]",
+        "source": "cadvisor/recipes/default.rb",
+        "line": 13,
+        "covered": true
+      }
+    }
+  },
+  "resources": {
+    "all": {
+      "docker_image[registry.it.lan.com/latam/cadvisor]": {
+        "name": "docker_image[registry.it.lan.com/latam/cadvisor]",
+        "source": "cadvisor/recipes/default.rb",
+        "line": 8,
+        "covered": true
+      },
+      "docker_container[registry.it.lan.com/latam/cadvisor]": {
+        "name": "docker_container[registry.it.lan.com/latam/cadvisor]",
+        "source": "cadvisor/recipes/default.rb",
+        "line": 13,
+        "covered": true
+      }
+    },
+    "covered": {
+      "docker_image[registry.it.lan.com/latam/cadvisor]": {
+        "name": "docker_image[registry.it.lan.com/latam/cadvisor]",
+        "source": "cadvisor/recipes/default.rb",
+        "line": 8,
+        "covered": true
+      },
+      "docker_container[registry.it.lan.com/latam/cadvisor]": {
+        "name": "docker_container[registry.it.lan.com/latam/cadvisor]",
+        "source": "cadvisor/recipes/default.rb",
+        "line": 13,
+        "covered": true
+      }
+    },
+    "uncovered": {
+    }
+  },
+  "totals": {
+    "resources": 2,
+    "covered": 2,
+    "uncovered": 0,
+    "percent": 100.0
+  }
+}
